@@ -13,9 +13,9 @@ Write a method to judge whether an input number is power of four
 ```kotlin
 class Solution {
     fun isPowerOfThree(n: Int): Boolean {
-        val base3 = n.toString(4)
+        val base4 = n.toString(4)
         val reg = Regex("^10*$")
-        return base3.matches(reg)
+        return base4.matches(reg)
     }
 }
 ```
